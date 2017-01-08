@@ -160,6 +160,7 @@ struct exynos_decon_platdata {
 	enum decon_psr_mode	psr_mode;
 	enum decon_trig_mode	trig_mode;
 	enum decon_dsi_mode	dsi_mode;
+	enum decon_output_type out_type;
 	int	max_win;
 	int	default_win;
 };
